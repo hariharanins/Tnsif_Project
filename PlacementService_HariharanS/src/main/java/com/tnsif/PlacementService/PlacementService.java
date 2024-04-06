@@ -14,7 +14,7 @@ public class PlacementService {
 	@Autowired
 	private PlacementRepository repo;
 	//to insert the record
-	public void save(Placement place){
+	public void InsertRecord(Placement place){
 		 repo.save(place);
 		
 	}

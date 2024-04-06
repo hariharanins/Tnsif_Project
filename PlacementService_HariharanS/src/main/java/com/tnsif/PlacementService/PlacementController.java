@@ -10,7 +10,7 @@ public class PlacementController {
 		
 			@PostMapping("/PlacementService")
 			public void add (@RequestBody Placement place) {
-				Service.save(place);
+				Service.InsertRecord(place);
 			
 			
 			}
